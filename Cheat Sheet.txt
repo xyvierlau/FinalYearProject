@@ -1,0 +1,5 @@
+Read time: https://www.unixtimestamp.com/index.php
+web3.eth.getBlock(BLOCKNUMBER).timestamp
+
+Read ancient transaction detail: 
+web3.toAscii(web3.eth.getTransaction('TRANSACTIONHASH').input)
